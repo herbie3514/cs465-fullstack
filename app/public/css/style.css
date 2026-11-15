@@ -1,0 +1,237 @@
+/* Website template by freewebsitetemplates.com */
+body {
+	background: #ffb747 url(../images/bg-body.jpg) repeat-x left top;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+}
+#background {
+	background: url(../images/bg-pattern.jpg) repeat-x center top;
+	min-height: 1318px;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+img {
+	border: 0;
+}
+
+/*------------------------------ Sprites ------------------------------*/
+#navigation, #navigation li, #navigation li a, #contents div.box, #contents div.box > div, #contents div.box > div > div {
+	background-image: url(../images/bg-navigation.png);
+	background-repeat: no-repeat;
+}
+#connect a {
+	background: url(../images/icons.png) no-repeat;
+}
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+#logo {
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 49px;
+}
+#navigation {
+	background-position: 0 0;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	padding: 1px;
+}
+#navigation ul {
+	display: inline-block;
+	width: 860px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	background-position: 0 -118px;
+	background-repeat: repeat-x;
+	height: 49px;
+	width: 122px;
+	margin: 0;
+	padding-left: 1px;
+	text-align: center;
+}
+#navigation li:first-child {
+	background: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+#navigation li a {
+	color: #fff;
+	display: block;
+	font: bold 14px/48px Arial, Helvetica, sans-serif;
+	height: 49px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navigation li a:hover {
+	background-position: 0 -59px;
+	color: #6d6157;
+}
+#navigation li.selected a {
+	background-position: 0 -59px;
+	color: #e4e1bd;
+}
+
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	display: inline-block;
+	width: 865px;
+	padding: 0 47px;
+}
+#contents h1 {
+	color: #316e66;
+	font: 26px/30px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	text-transform: uppercase;
+}
+#contents div.body h1, #contents h2 {
+	color: #316e66;
+	font: 30px/30px "Times New Roman", Times, serif;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+}
+#contents h2 {
+	font-size: 22px;
+	margin: 0 0 30px;
+}
+#contents h2 a {
+	color: #2c9688;
+	text-decoration: none;
+}
+#contents p {
+	color: #5a4535;
+	font-size: 15px;
+	line-height: 30px;
+	margin: 0;
+	padding-bottom: 24px;
+	padding-left: 2px;
+}
+#contents p a {
+	color: #5a4535;
+}
+#contents p a:hover {
+	color: #2c9688;
+}
+#contents div.box {
+	background-position: left bottom;
+	margin-bottom: 20px;
+	margin-left: 1px;
+	padding: 0 0 6px;
+}
+#contents div.box > div {
+	background-position: -1745px top;
+	padding: 6px 0 0;
+}
+#contents div.box > div > div {
+	background-position: -872px top;
+	background-repeat: repeat-y;
+	padding: 19px 40px 0;
+}
+#contents div.body {
+	padding: 0 40px;
+}
+#sites {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#sites li {
+	display: inline-block;
+	width: 786px;
+	border-top: 1px solid #e5e5e5;
+	padding: 24px 0;
+}
+#sites li:first-child {
+	border-top: 0;
+	padding-top: 0;
+}
+#sites li img {
+	float: right;
+	margin-left: 20px;
+}
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	color: #594334;
+	font-size: 14px;
+	line-height: 48px;
+	margin: -38px 0 20px;
+	padding-top: 42px;
+	text-transform: uppercase;
+}
+#footer > div {
+	background-color: #ac9e94;
+	height: 48px;
+	width: 822px;
+	border-bottom: 1px solid #72675f;
+	border-top: 1px solid #cdbeb2;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: right;
+}
+#footer ul.navigation {
+	float: left;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer ul.navigation li {
+	float: left;
+	margin-right: 10px;
+}
+#footer ul.navigation li a {
+	color: #594334;
+	padding: 0 5px;
+	text-decoration: none;
+}
+#footer ul.navigation li:first-child a {
+	border-left: 0;
+	padding-left: 0;
+}
+#footer ul.navigation li a:hover {
+	color: #eee7c3;
+}
+#footer ul.navigation li.active a {
+	color: #fff;
+}
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: none;
+}
+#connect {
+	float: right;
+	display: inline-block;
+	line-height: 26px;
+	margin: 12px 0 0;
+}
+#connect a {
+	display: inline-block;
+	height: 23px;
+	width: 23px;
+	margin-left: 10px;
+}
+#connect a.pinterest {
+	background-position: 0 -33px;
+}
+#connect a.facebook {
+	background-position: 0 -98px;
+}
+#connect a.twitter {
+	background-position: 0 -164px;
+}
+#connect a.googleplus {
+	background-position: 0 -230px;
+}
